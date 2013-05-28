@@ -19,7 +19,7 @@ set cpo&vim
 
 "PYTHONEOF
 
-pyfile ~/.vim/bundle/simple-browser.py
+pyfile ~/.vim/bundle/simple-browser.vim/plugin/simple-browser.py
 
 function! s:webbrowse()
     python webbrowse()
